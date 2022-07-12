@@ -7,7 +7,9 @@
 
 lstm_model_parameter = {
     "best_model_path": './check',  # 학습 완료 모델 저장 경로
+    
     "model_name": '/lstm.h5'
+    
     "parameter": {
         "input_size" : 1,  # 데이터 변수 개수, int
         "output_size" : 1, # 데이터 변수 개수, int
