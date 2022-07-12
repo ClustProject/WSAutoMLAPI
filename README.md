@@ -6,6 +6,7 @@
 웹페이지 구현 후 API 형태로 사용자에게 input_data_file을 입력받아 모델학습 및 데이터 전처리 진행
 
 lstm_model_parameter = {
+
     "best_model_path": './check',  # 학습 완료 모델 저장 경로
     
     "model_name": '/lstm.h5'
@@ -27,9 +28,10 @@ lstm_model_parameter = {
 }
 
 preprocessing = {
+
     "conzon_id" = "콘존ID"
     "vds_id" = "VDS_ID"
     "drop_col" = ['집계일자', '집계일', '집계시분']
-    "index" = "집계날"
+    "index" = "집계날
 }
 
